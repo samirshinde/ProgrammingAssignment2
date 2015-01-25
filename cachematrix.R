@@ -13,6 +13,8 @@
 # numeric() creates a double-precision vector of the specified length with each element equal to 0
 # "x = numeric()" creates a variable "x" that is not reachable from the global environment, 
 # but is available in the environment of the makeCacheMatrix function.
+# The <<- operator can be used to assign a value to an object in an environment 
+# that is different from the current environment. 
 
 #Start of Function 1
 makeCacheMatrix <- function(x = numeric()) {
